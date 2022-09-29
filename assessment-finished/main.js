@@ -7,10 +7,10 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = '外の気温は20度で涼しかった。 :insertx: は一日、:inserty:ため、外出した。:insertx: は忙しかったが、 :insertz: 1日であった。';
+const storyText = '外の気温は20度で涼しかった。 :insertx: は:inserty:ため、1日外出した。:insertx: は忙しかったが、:insertz: 1日であった。';
 const insertX = ['梅子', '津田', 'うめ'];
 const insertY = ['学校に行く', '友達と会う', 'バイトに行く'];
-const insertZ = ['幸せな', '楽しい', '疲れた'];
+const insertZ = ['幸せな', '楽しい', '頑張った'];
 
 randomize.addEventListener('click', result);
 
